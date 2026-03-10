@@ -28,7 +28,7 @@ sudo apt install plymouth plymouth-themes
 
 Clone the repo and run the installer:
 ```bash
-git clone https://github.com/yourusername/ben10-plymouth-theme.git
+git clone https://github.com/Saimirf/Ben10-plymouth-theme.git
 cd ben10-plymouth-theme
 sudo bash install.sh
 ```
