@@ -33,7 +33,9 @@ cd ben10-plymouth-theme
 sudo bash install.sh
 ```
 make sure these lines are in /etc/default/grub
+```
 sudo nano /etc/default/grub
+```
 ```bash
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 GRUB_CMDLINE_LINUX=""
