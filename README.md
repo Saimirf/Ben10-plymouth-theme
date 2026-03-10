@@ -40,6 +40,9 @@ sudo nano /etc/default/grub
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 GRUB_CMDLINE_LINUX=""
 ```
+```
+sudo update-grub
+```
 
 Reboot to see the theme:
 ```bash
