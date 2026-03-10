@@ -1,0 +1,18 @@
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+i = 1;
+frame_count = 27;
+tick = 0;
+speed = 7;
+fun refresh_callback() {
+    tick = tick + 1;
+    if (tick % speed == 0) {
+        i = (i % frame_count) + 1;
+        sprite.SetImage(Image("frame-" + i + ".png"));
+    }
+}
+sprite = Sprite();
+sprite.SetImage(Image("frame-1.png"));
+sprite.SetX(0);
+sprite.SetY(0);
+Plymouth.SetRefreshFunction(refresh_callback);

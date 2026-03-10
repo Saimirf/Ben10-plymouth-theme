@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=ben10
+Description=Ben10 boot animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/ben10
+ScriptFile=/usr/share/plymouth/themes/ben10/ben10.script
